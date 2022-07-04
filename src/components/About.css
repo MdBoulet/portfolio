@@ -1,0 +1,46 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about {
+    position: relative;
+}
+
+.btn-plus {
+    color: white;
+    background-color: gray;
+    padding: 6px 16px ;
+    border: 0;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 500ms transform;
+}
+
+.btn-plus:hover {
+    background-color: gainsboro;
+    color: black;
+    transform: scaleX(1.08);
+}
+
+.coucou {
+    transition: 500ms transform;
+}
+
+.coucou:hover {
+    transform: scaleY(1.08);
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+    .bounced {
+      animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: scaleX(0)
+    }
+    to {
+      transform: scaleX(1.08);
+    }
+} */

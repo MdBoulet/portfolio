@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+}
+
+.links > a {
+    margin-right: 60px;
+}
+
+.social {
+    display: flex;
+}
+
+.social > a {
+    margin-right: 10px;
+}
+
+.home {
+    display: flex;
+}
+
+@media (max-width: 956px) {
+    .links {
+        display: none;
+    }
+}
