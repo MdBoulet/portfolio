@@ -22,13 +22,13 @@ function Header() {
             </a>
         </div>
         <div className="social">
-            <a href="https://github.com/mdboulet" target='_blank'>
+            <a href="https://github.com/mdboulet" rel="noopener">
                 <AiFillGithub size={32}/>
             </a>
-            <a href="https://gn.linkedin.com/in/mohamed-boulet-camara-27b4261a4" target='_blank'>
+            <a href="https://gn.linkedin.com/in/mohamed-boulet-camara-27b4261a4" rel="noopener">
                 <AiFillLinkedin size={32} />
             </a>
-            <a href="https://www.instagram.com/mdboulet/" target='_blank'>
+            <a href="https://www.instagram.com/mdboulet/" rel="noopener">
                 <AiOutlineInstagram size={32} />
             </a>
         </div>
