@@ -1,0 +1,33 @@
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-form > input {
+    outline: none;
+    background: gray;
+    height: 30px;
+    width: 325px;
+    padding: 5px;
+    color: white;
+}
+
+.contact-form > textarea {
+    outline: none;
+    background: gray;
+    color: white;
+    height: 180px;
+    padding: 5px;   
+}
+
+.btn {
+    height: 40px;
+    padding: 8px 15px;
+    color: white;
+}
+
+@media (max-width: 956px) {
+    .contact {
+        flex-direction: column;
+    }
+}
